@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "retaildemo-adf01"
+        },
+        "AzureSqlDatabase1_password": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "AzureSqlDatabase1_properties_typeProperties_server": {
+            "value": "pocserver01.database.windows.net"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_database": {
+            "value": "pocdatabase-retail"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_userName": {
+            "value": "argha"
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://retaildemoproject01.dfs.core.windows.net/"
+        },
+        "HttpServer1_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/"
+        }
+    }
+}
